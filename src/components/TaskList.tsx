@@ -16,6 +16,22 @@ export function TaskList() {
 
   function handleCreateNewTask() {
     // Crie uma nova task com um id random, não permita criar caso o título seja vazio.
+
+    // Verifica se o valor contido no input é vazio, se sim, ele interrompe a aplicação.
+    if(newTaskTitle == '') {
+      return
+    }
+
+    // Cria uma nova task, com um id random.
+    const newTask = {
+      id: Math.random(),
+      title: newTaskTitle,
+      isComplete: false
+    }
+
+    setTasks(oldState => [...oldState, newTask])
+    setNewTaskTitle("")
+
   }
 
   function handleToggleTaskCompletion(id: number) {

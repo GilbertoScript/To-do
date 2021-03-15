@@ -19,6 +19,8 @@ export function TaskList() {
 
     // Verifica se o valor contido no input é vazio, se sim, ele interrompe a aplicação.
     if(newTaskTitle == '') {
+      $('#exampleModal').modal('show')
+
       return
     }
 
@@ -36,6 +38,14 @@ export function TaskList() {
 
   function handleToggleTaskCompletion(id: number) {
     // Altere entre `true` ou `false` o campo `isComplete` de uma task com dado ID
+
+    // Mapeamos todas as tasks
+    const newTasks = tasks.map(task => task.id === id ? {
+      ...task, 
+      isComplete: !task.isComplete,
+    } : task)
+
+    setTasks(newTasks)
   }
 
   function handleRemoveTask(id: number) {
@@ -53,7 +63,7 @@ export function TaskList() {
       <header>
         <h2>Minhas tasks</h2>
 
-        <div className="input-group">
+        <div className="inputGroup">
           <input 
             type="text" 
             placeholder="Adicionar novo todo" 
@@ -64,6 +74,7 @@ export function TaskList() {
             <FiCheckSquare size={16} color="#fff"/>
           </button>
         </div>
+
       </header>
 
       <main>
@@ -91,6 +102,7 @@ export function TaskList() {
           
         </ul>
       </main>
+
     </section>
   )
 }

@@ -35,6 +35,12 @@ Neste Aplicativo de Finanças foram utilizadas as seguintes tecnologias
 - [SASS](https://sass-lang.com/)
 - [React](https://pt-br.reactjs.org/)
 
+### ✈️ Como acessar o Personal budget
+
+Hospedado no Netlify
+
+https://to-do-gsj.netlify.app/
+
 ### 📃 Licença
 
 Este projeto está sobre a licença <a href="https://github.com/GilbertoASJ/To-do/blob/main/LICENSE">MIT</a>

@@ -13,3 +13,28 @@ O intuito do desafio foi colocar em prática o que foi aprendido no primeiro mó
 Fiz implementações no desafio, como adicionar um modal de erro caso o input esteja vazio ao tentar adicionar uma nova tarefa, para isso utilizei bootstrap e jquery e criei um novo componente react.
 
 <hr>
+
+### 🔥 Como contribuir
+
+1. Fork este repositório;
+2. Crie uma branch com sua feature: ** `git checkout -b my-feature` **;
+3. Faça commit de suas mudanças: ** `git commit -m 'feat: My new feature'` **;
+4. Envie para a branch: ** `git push origin my-feature` **.
+
+Depois de fazer o 'merge' de seu pull request, você pode excluir seu branch.
+
+### 💻 Tecnologias utilizadas
+
+Neste Aplicativo de Finanças foram utilizadas as seguintes tecnologias
+
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [Bootstrap](https://getbootstrap.com/)
+- [JavaScript](https://www.w3schools.com/js/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+- [React](https://pt-br.reactjs.org/)
+
+### 📃 Licença
+
+Este projeto está sobre a licença <a href="https://github.com/GilbertoASJ/To-do/blob/main/LICENSE">MIT</a>

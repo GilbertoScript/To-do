@@ -35,7 +35,7 @@ Neste Aplicativo de Finanças foram utilizadas as seguintes tecnologias
 - [SASS](https://sass-lang.com/)
 - [React](https://pt-br.reactjs.org/)
 
-### ✈️ Como acessar o Personal budget
+### ✈️ Como acessar o aplicativo
 
 Hospedado no Netlify
 
